@@ -76,7 +76,7 @@
             <div class="flex items-center gap-4">
                 <a href="{{ route('quote') }}"
                     class="bg-[#F97316] hover:bg-orange-600 text-white px-5 sm:px-6 py-2.5 rounded-full font-bold transition shadow-[0_4px_14px_0_rgba(249,115,22,0.39)] hover:shadow-[0_6px_20px_rgba(249,115,22,0.23)] transform hover:-translate-y-0.5 inline-flex items-center text-sm">
-                    <span class="hidden sm:inline">Get a</span> Free Quote
+                    <span class="hidden sm:inline">Get a </span> Free Quote
                     <svg class="w-4 h-4 ml-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                             d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
