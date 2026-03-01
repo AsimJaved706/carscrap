@@ -32,6 +32,9 @@ class UserConfirmationMail extends Mailable
     {
         return new Envelope(
             subject: 'We have received your car details - idontwantmycaranymore.co.uk',
+            replyTo: [
+                new \Illuminate\Mail\Mailables\Address(config('mail.from.address'), config('mail.from.name')),
+            ],
         );
     }
 
