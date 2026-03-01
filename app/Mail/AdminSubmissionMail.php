@@ -34,6 +34,9 @@ class AdminSubmissionMail extends Mailable
     {
         return new Envelope(
             subject: 'New Car Scrap Submission - ' . $this->submission->registration_number,
+            replyTo: $this->submission->email ? [
+                new \Illuminate\Mail\Mailables\Address($this->submission->email, $this->submission->full_name),
+            ] : [],
         );
     }
 
